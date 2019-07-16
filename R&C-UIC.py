@@ -134,45 +134,7 @@ import pandas as pd
 import numpy as np
 Question R - 1 (5 Points)
 
-Import data here and make changes, i.e. impute values, remove outliers if any. If there are not any missing, outlier, null values points will be awarded for checking them
-In [ ]:
-
-Question R - 2 (5 . 3 = 15 points)
-
-Plot three task-relevant plots. For example, a line chart showing the trend of prices over time. You can use any library or plot type to a plot, but make sure it's readable i.e. proper labeling of the axis, title, and coloring.
-In [ ]:
-
-Question R - 3 (5.2 = 10 points)
-
-Perform feature selection - Attempt at least 2 feature selection approaches to select your features. You can select one approach for further modeling and explain why you selected it. 1. Stepwise 2. Backward elimination 3. PCA
-In [ ]:
-
-Question R - 4 (5.3 = 15 points)
-
-Modeling - Please attempt to solve the problem with at least three models with 10-fold cross validation. 1. Linear Regression 2. Ridge Regression 3. Your choice - you can use a regression model you learned in class or some other model that you think would be better. If you are using a library other than sklearn, for example, a neural network using TensorFlow. Please mention it in the first few cells so that I can load it into the environment for grading.
-In [ ]:
-
-Grid Search
-
-The grid search is a technique to find the best parameters for your model. It performs an exhaustive search over the hyperparameter search space to get the best settings. You can find an example here, https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_digits.html. Also, you can find an example here https://github.com/sourabhparime/Teaching/blob/master/Workshop%202/2_GridSearch_HyperparameterEstimation.ipynb
-Question R - 6 (10 points)
-
-Tuning - From the above cell you have your best performing model. Tune it using grid search, to get the best parameters. As usual, you get points for grid searching, i.e. even if you find that the default hyperparameters are the best per- forming you still get points for grid searching
-In [ ]:
-
-Question R - 7 (10 points)
-
-Predict - Split your dataset into train, test and predict the test values using your best performing model and your best hyperparameters
-In [ ]:
-
-Question R - 8
-
-Write a stepwise summary of your findings. 1. If there were any imputations executed, what were they? (1 point) 2. You plotted three graphs. What is the insight you gained in one line? (2 points per insight.) (2 .3 = 6 points) 3. Which feature selection method worked for you? (1 point) 4. What was the third model you implemented?. Was it better than the required two? If yes, then why? (2 points)
-In [ ]:
-
-Template for part 2 Classification problem
-
-*Note: Please make sure your variable names for dataframes are not the same to avoid variable assignment errors. Please make sure your notebook runs completely on Restart and Run without errors.
+aframes are not the same to avoid variable assignment errors. Please make sure your notebook runs completely on Restart and Run without errors.
 Question C - 1 (3.3 = 9 points)
 
 Plot three task-relevant plots. For example, a line chart showing the trend of prices over time. You can use any library or plot type to a plot, but make sure it's readable i.e. proper labeling of the axis, title, and coloring.
@@ -195,22 +157,3 @@ ax.set_xlabel("Qality")
 ax.set_ylabel("Price")
 
 ax.legend(loc='best')
-Question C - 2 (5 * 3 = 15 points)
-
-Modeling - Please attempt to solve the problem with at least three models with 10-fold cross validation -5 points 1. Logistic Regression 2. KNN 3. SVM
-In [ ]:
-
-Question C - 3 (6 points)
-
-Tuning - From the above cell you have your best performing model. Tune it using grid search, to get the best parameters. As usual, you get points for grid searching, i.e. even if you find that the default hyperparameters are the best per- forming you still get points for grid searching
-In [ ]:
-
-Question C - 3 (5 points)
-
-Predict - Split your dataset into train, test and predict the test values using your best performing model and your best hyperparameters
-In [ ]:
-
- 
-Question C - 4 (5 points)
-
-Results - Print a confusion matrix, precision and recall
